@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>hhqVueCube</title>
+  <script type="text/javascript">
+  (function() {
+    function o() {
+      document.documentElement.style.fontSize = (document.documentElement.clientWidth > 750 ? 750 : document.documentElement.clientWidth) / 7.5 + "px"
+    }
+    var e = null;
+    window.addEventListener("resize", function() {
+      clearTimeout(e), e = setTimeout(o, 20)
+    }, !1), o()
+  })(window);
+
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
+</html>

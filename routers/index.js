@@ -26,11 +26,6 @@ exports.login = function(req, res) {
     data: req.body
   }).then((response) => {
     res.json(response.data)
-    userData.headers.session_id = response.data.data.session.sid
-    userData.headers.user_id = response.data.data.session.uid
-    userData.user_id = response.data.data.session.uid
-    // userData.user_id = 12
-    userData.user = response.data.data.user
   }).catch((e) => {
     console.log(e)
   })

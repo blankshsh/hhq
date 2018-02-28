@@ -2,7 +2,7 @@ const axios = require('axios')
 
 exports.hhq = function(req, res) {
   axios({
-    url: 'https://blankshsh.herokuapp.com/api/hhq',
+    url: 'http://blankshsh.herokuapp.com/api/hhq',
     method: 'POST',
     headers: {
       sign: req.get('sign'),
@@ -14,10 +14,9 @@ exports.hhq = function(req, res) {
   })
 }
 
-
 exports.login = function(req, res) {
   axios({
-    url: 'https://blankshsh.herokuapp.com/api/login',
+    url: 'http://blankshsh.herokuapp.com/api/login',
     method: 'POST',
     headers: {
       sign: req.get('sign'),

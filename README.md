@@ -20,6 +20,11 @@ npm run build
 
 ![](http://optmmw8fy.bkt.clouddn.com/hhq.png)
 
+### 小程序
+
+![](http://optmmw8fy.bkt.clouddn.com/hhqwx.jpg)
+
+
 ## 技能点
 ### heroku nodejs axios cube-ui better-scroll
 

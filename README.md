@@ -16,7 +16,7 @@ npm run build
 
 ```
 ## 项目预览
-### [在线预览链接](https://blankshsh.herokuapp.com/hhq.html)
+### [在线预览链接](https://www.blankshsh.cn/hhq.html)
 
 ![](http://optmmw8fy.bkt.clouddn.com/hhq.png)
 

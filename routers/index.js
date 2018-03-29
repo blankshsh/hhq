@@ -2,7 +2,7 @@ const axios = require('axios')
 
 exports.hhq = function(req, res) {
   axios({
-    url: 'http://193.112.105.192/api/hhq',
+    url: 'https://www.blankshsh.cn/api/hhq',
     method: 'POST',
     headers: {
       sign: req.get('sign'),

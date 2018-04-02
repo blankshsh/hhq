@@ -62,7 +62,7 @@ function password() {
 
 
 export function login() {
-  const url = '/api/login'
+  const url = 'https://api.blankshsh.cn/api/login'
   return axios({
     url: url,
     method: 'POST',
@@ -74,7 +74,7 @@ export function login() {
 
 export function hhq($data) {
   return axios({
-    url: '/api/hhq',
+    url: 'https://api.blankshsh.cn/api/hhq',
     method: 'POST',
     data: $data,
     headers: password()

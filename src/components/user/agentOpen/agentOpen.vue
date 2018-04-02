@@ -126,9 +126,10 @@ export default {
         font-size: 28/@rem;
         width: 100%;
         height: 100%;
-        line-height: 90/@rem;
+        line-height: 50/@rem;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
+        padding: 20/@rem;
         padding-left: 150/@rem;
         margin-left: 15/@rem;
       }

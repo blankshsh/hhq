@@ -7,10 +7,6 @@ const baseWebpackConfig = require('./webpack.base.conf')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
-const axios = require('axios')
-const router = require('../routers')
-const bodyParser = require('body-parser')
-let jsonParser = bodyParser.json()
 
 const devWebpackConfig = merge(baseWebpackConfig, {
   module: {
@@ -24,10 +20,6 @@ const devWebpackConfig = merge(baseWebpackConfig, {
 
   // these devServer options should be customized in /config/index.js
   devServer: {
-    before(app) {
-      app.post('/api/login', jsonParser, router.login)
-      app.post('/api/hhq', jsonParser, router.hhq)
-    },
     clientLogLevel: 'warning',
     historyApiFallback: true,
     hot: true,

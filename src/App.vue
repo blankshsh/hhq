@@ -19,4 +19,11 @@ export default {
   display: none !important;
 }
 
+input[type="radio"] {
+  width: 0;
+  height: 0;
+  background: transparent;
+  opacity: 0
+}
+
 </style>
